@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include=".\SFNetwork_Def.h" />
+    <ClInclude Include=".\SFTCPSocket.h">
+      <Filter>NetworkLayer</Filter>
+    </ClInclude>
+    <ClInclude Include=".\SFUDPSocket.h">
+      <Filter>NetworkLayer</Filter>
+    </ClInclude>
+    <ClInclude Include=".\HandlerAllocator.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\SFLock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMultiRingBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SFRingBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\SFServerSessionMgr.h" />
+    <ClInclude Include=".\SFServerNet.h" />
+    <ClInclude Include=".\SFServerSession.h" />
+    <ClInclude Include="Helper.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SFDefaultFactoryNetworkComponent.h">
+      <Filter>BasicImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="SFDefaultPacketHandler.h">
+      <Filter>BasicImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="SFDefaultLog.h">
+      <Filter>BasicImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="SFUDPSendBuffer.h">
+      <Filter>BasicImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="SFTCPSendBuffer.h">
+      <Filter>BasicImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="SFInterface.h" />
+    <ClInclude Include=".\SFUDPSessionMgr.h" />
+    <ClInclude Include="SFUDPMgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BasicImpl">
+      <UniqueIdentifier>{e6d2b1b3-350d-45f6-99fe-d1f12f8951ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkLayer">
+      <UniqueIdentifier>{df3aae45-d058-45e6-aabc-4d96537c8b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{19e3b364-e486-49fd-a11c-58b3f9437760}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
